@@ -169,7 +169,8 @@ body {
 }
 .row{
     justify-content: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .box{
     justify-content: center;
@@ -191,4 +192,24 @@ body {
     font-size: 1.3rem;
     font-weight: bolder;
     color: grey;
+}
+@media only screen and (max-width: 1300px) {
+    .body1,.body2,.body3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .box{
+        text-align:center ;
+    }
+    .icons{
+        margin-left: 41%;
+    }
+    .avatar{
+        width: 30%;
+    }
 }
