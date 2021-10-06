@@ -170,6 +170,112 @@ body {
     font-size: 7rem;
     font-weight: bolder;
 }
+.body4{
+    margin: 12rem 8rem;
+    display: flex;
+}
+.blueIcon{
+    margin-right: 5%;
+}
+.body4 #title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.body4 #text4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blueIcon img{
+    width: 5rem;
+}
+.button4{
+    margin: 3% 0 0 25%;
+}
+.body4 button{
+    font-size: 20px;
+    width: 12rem;
+    border: 0;
+    padding: 15px 0;
+    outline: none;
+    color: white;
+    background: #065ba7;
+    cursor: pointer;
+}
+.body5{
+    margin: 12rem 8rem;
+    display: flex;
+}
+.body5 .left5 img{
+    width: 80%;
+}
+.body5 .right5{
+
+}
+.title5{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.text5-1,.text5-2,.text5-3{
+    font-size:1.3rem ;
+    text-align: right;
+}
+.text5-1{
+    font-weight: bold;
+}
+.button5{
+    font-size: 20px;
+    width: 12rem;
+    border: 0;
+    padding: 15px 0;
+    outline: none;
+    color: white;
+    background:#14c9f4;
+    cursor: pointer;
+}
+.button4 img,.button5 img{
+    transform: translateY(5px);
+}
+.right5 div{
+    text-align: right;
+    margin-top: 5rem;
+}
+.body6{
+    margin-left:4%;
+}
+.row6{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.box6{
+    justify-content: center;
+}
+.box6 .avatar{
+    width: 80%;
+}
+.icons img{
+    width: 20px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 20px;
+    margin: 3rem 0 ;
+}
+.job{
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: bolder;
+}
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.text {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
 
 @media only screen and (max-width: 1300px) {
 
