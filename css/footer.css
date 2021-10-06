@@ -83,3 +83,16 @@ body {
     right: 10%;
     transform: translateY(10px);
 }
+@media only screen and (max-width: 1300px) {
+    .foot1{
+        display:grid ;
+        grid-template-columns:1fr;
+    }
+    .footerLeft{
+        text-align: center;
+    }
+    .foot2{
+        display:grid ;
+        grid-template-columns:1fr;
+    }
+}
