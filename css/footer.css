@@ -1,6 +1,9 @@
 body {
     font-family: 'Overpass', sans-serif;
 }
+.footer{
+    margin-top: 5rem;
+}
 .foot1{
     display:grid ;
     grid-template-columns: 1fr 1fr;
@@ -25,18 +28,16 @@ body {
     transform: translateY(-15px);
 }
 .footerLeft{
-    justify-self: end;
-    transform: translateY(-15px);
     text-align: right;
 }
 .footerLeft p:first-child {
     font-weight: bold;
 }
-.number {
+.footerLeft span{
     color:#2f679b;
     font-size: 2rem;
     font-weight: bolder;
-    transform: translateY(-30px);
+   text-align: right;
 }
 .foot2{
     display: flex;
