@@ -1,9 +1,8 @@
 body {
     font-family: 'Overpass', sans-serif;
-    width: 100vw;
+    height: 100vh;
 }
 .main-div {
-    padding-top: 175px;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -15,11 +14,11 @@ body {
 }
 
 .contact-head-text {
-    width: 40rem;
+    width: 50%;
 }
 
 .contact-head-text h1 {
-    width: 30rem;
+    width: 30%;
     font-size: 60px;
     line-height: 60px;
     font-weight: 600;
@@ -29,7 +28,8 @@ body {
 .contact-head-img {
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40rem;
+    margin-left: 5rem;
+    width: 80%;
     height: auto;
 }
 
@@ -129,7 +129,6 @@ body {
 }
 
 .contact-info-ways p {
-
     color: #7f7f7f;
 }
 
@@ -138,7 +137,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 3rem 0;
     margin-top: 2rem;
 }
 
@@ -168,7 +167,7 @@ body {
 .contact-form-div {
     background-image: url("../img/back.png");
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center top;
 }
 
@@ -264,11 +263,19 @@ body {
     margin-right: 1rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1300px) {
+    .main-div{
+        margin-top: -15%;
+    }
     .contact-head {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        width: 100%; <!-- changed -->
+    }
+
+    .contact-head-text h1{
+        width: 100%;
     }
 
     .contact-head-info {
@@ -281,20 +288,15 @@ body {
     .contact-head-img {
         background-size: cover;
         background-repeat: no-repeat;
-        width: 25rem;
+        width: 80%;
         height: auto;
         margin-top: 5px;
     }
 
     .main-div {
-        width: 95vw;
         padding-top: 175px;
         /*padding-right: 5%;*/
         /*padding-left: 5%;*/
-    }
-
-    .hr {
-        display: none;
     }
 
     .contact-info-ways {
@@ -353,6 +355,14 @@ body {
         flex-direction: column;
         justify-content: space-around;
     }
+    .employee-head-text h2{
+        text-align: left;
+        width: 100%;
+    }
+    .employee-sec img{
+        margin-left:-2rem ;
+        width: 80%;
+    }
     .contact-info-ways{
         margin-left: -6rem;
     }
@@ -367,7 +377,8 @@ body {
         width: 25rem;
     }
     .employee-head-text{
+        text-align: left;
         margin-left: 1rem;
-        width: 25rem;
+        width:80%;
     }
 }

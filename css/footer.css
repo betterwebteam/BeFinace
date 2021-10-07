@@ -3,6 +3,7 @@ body {
 }
 .footer{
     margin-top: 5rem;
+    overflow: hidden;
 }
 .foot1{
     display:grid ;
@@ -15,6 +16,7 @@ body {
 .footerRight{
     display: flex;
 }
+
 .footerRight-img{
     margin-right: 10%;
 }
@@ -45,6 +47,7 @@ body {
     margin-top: 4rem;
 }
 .foot2 p{
+    width: 80%;
     font-size: 1.3rem;
     font-weight: bold;
     color: dimgray;
@@ -84,9 +87,18 @@ body {
     transform: translateY(10px);
 }
 @media only screen and (max-width: 1300px) {
-    .foot1{
+    .footer{
+        text-align: center;
+    }
+
+    .foot1,.footerRight{
         display:grid ;
         grid-template-columns:1fr;
+    }
+    .footerRight img{
+        width: 15%;
+        text-align: center;
+        margin-left: 10%;
     }
     .footerLeft{
         text-align: center;
@@ -94,5 +106,8 @@ body {
     .foot2{
         display:grid ;
         grid-template-columns:1fr;
+    }
+    .foot2 p{
+        width: 100%;
     }
 }
