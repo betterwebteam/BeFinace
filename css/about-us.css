@@ -2,8 +2,8 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 #about-us a{
-    color :#5fb6cb;
-    border-bottom: 1px solid #5fb6cb;
+    color :var(--blue);
+    border-bottom: 1px solid var(--blue);
     padding-bottom: 5px;
 }
 button:hover {
@@ -61,7 +61,8 @@ button:hover {
     font-weight: bolder;
 }
 .body2{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     margin: 10rem 0;
 }
 .left img{
@@ -119,7 +120,7 @@ button:hover {
     padding:.7rem .7rem 1.2rem 1rem;
     outline: none;
     color: white;
-    background: #14c9f4;
+    background: var(--blue);
     cursor: pointer;
 }
 
@@ -206,10 +207,13 @@ button:hover {
     font-weight: bolder;
     color: grey;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 900px) {
     .body1,.body2,.body3{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .right h1{
+        font-size: 2.5rem;
     }
     .row{
         display: grid;
