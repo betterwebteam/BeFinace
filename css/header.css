@@ -1,3 +1,6 @@
+::selection {
+    background: var(--blue);
+}
 html {
     scroll-behavior: smooth;
 }

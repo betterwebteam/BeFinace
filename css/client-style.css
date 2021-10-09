@@ -1,7 +1,15 @@
 body{
     font-family: 'Overpass', sans-serif;
 }
-
+#our-clients a{
+    color : var(--blue);
+    border-bottom: 1px solid var(--blue);
+    padding-bottom: 5px;
+}
+button:hover {
+    filter: brightness(80%);
+    transition: 0.2s;
+}
 .flex-container {
     margin:10% 10%;
 }
@@ -20,15 +28,15 @@ h1 {
 hr {
     color: rgb(201, 197, 197);
     box-shadow: none;
-    
+
 }
 .contex-left {
     margin: 2rem 0 0.5rem 0;
 }
 #suggest {
-    color:  #808080; 
-    font-size: 1rem; 
-    font-weight: 100;   
+    color:  #808080;
+    font-size: 1rem;
+    font-weight: 100;
 }
 #profile {
     width: 20%;
@@ -38,7 +46,7 @@ hr {
 }
 h6{
     color: #7f7f7f;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 3px;
     font-weight: 500;
 }
@@ -104,104 +112,98 @@ h2{
 }
 h4{
     font-size: 1rem;
-    font-weight: 100;  
+    font-weight: 100;
     color:#808080;
     margin: 1% 0 5% 0;
 }
 
-img {
+.clientImg {
     width:100%;
     height: auto;
 }
 @media only screen and (max-width: 600px){
     body{
-    margin-top: 10%;
-  }
-.flex-container {
-    display: flex;
-    flex-direction: column;
-      width: 80%;
-      margin-left: 10%;
-  }
-.part-1{
-    display: grid;
-    grid-template-columns:(2,2fr);
-    grid-template-areas: "left-header"
+        margin-top: 10%;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .part-1{
+        display: grid;
+        grid-template-columns:(2,2fr);
+        grid-template-areas: "left-header"
                          " img-frst-right";
 
-}
-.part-2{
-    display: grid;
-    grid-template-columns:(2,2fr);
-    grid-template-areas: "left-norton"
-                        " right-fintech";
-}
-.part-3{
-    display: grid;
-    grid-template-columns:(2,2fr);
-    grid-template-areas: "left-smash"
-                          "right-cursus";
-}
-
-h1 {
-    font-size: 1.5rem;
-    margin-bottom: 5%;
-}
-h2{
-    font-size: 1.3rem;
-    margin: 1% 0 1% 0;
-}
-h4{
-    font-size: 0.7rem;
-    margin: 5% 0 5% 0;
-}
-h6{
-    font-size: 0.6rem;
-}
-img {
-    width:90%;
-    height: auto;
-    margin: 0 2%;
-
-}
-#profile{
-    display: none;
-}
-#profile-media {
-    display: inline;
-    width: 40%;
-    margin: 1rem 10rem 1rem 0;
     }
-#suggest {
-    color:  #808080; 
-    font-size: 0.6rem; 
-    font-weight: lighter;
-    margin-top: 10%; 
-}
-#number{
-    font-size: 0.7rem;
-}
-#norton {
-    margin-top: 4%;
-    width: 70%;
-    height: 10%;
-}
-#fintech {
-    width: 60%;
-    height: 10%;
-}
-#smash {
-    width: 50%;
-    height: 8%;
-}
-#cursus {
-    width: 25%;
-    height: 10%;
-}
-}
+    .part-2{
+        display: grid;
+        grid-template-columns:(2,2fr);
+        grid-template-areas: "left-norton"
+                        " right-fintech";
+    }
+    .part-3{
+        display: grid;
+        grid-template-columns:(2,2fr);
+        grid-template-areas: "left-smash"
+                          "right-cursus";
+    }
 
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    h2{
+        font-size: 1.3rem;
+        margin: 1% 0 1% 0;
+    }
+    h4{
+        font-size: 0.7rem;
+        margin: 5% 0 5% 0;
+    }
+    h6{
+        font-size: 0.6rem;
+    }
+    img {
+        width:90%;
+        height: auto;
+        margin: 0 2%;
 
-
-
-
-  
+    }
+    #profile{
+        display: none;
+    }
+    #profile-media {
+        display: inline;
+        width: 40%;
+        margin: 1rem 10rem 1rem 0;
+    }
+    #suggest {
+        color:  #808080;
+        font-size: 0.6rem;
+        font-weight: lighter;
+        margin-top: 10%;
+    }
+    #number{
+        font-size: 0.7rem;
+    }
+    #norton {
+        margin-top: 4%;
+        width: 70%;
+        height: 10%;
+    }
+    #fintech {
+        width: 60%;
+        height: 10%;
+    }
+    #smash {
+        width: 50%;
+        height: 8%;
+    }
+    #cursus {
+        width: 25%;
+        height: 10%;
+    }
+}
