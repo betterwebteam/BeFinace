@@ -6,6 +6,10 @@ body {
     border-bottom: 1px solid #5fb6cb;
     padding-bottom: 5px;
 }
+button:hover {
+    filter: brightness(80%);
+    transition: 0.2s;
+}
 .body{
     margin: 0 6%;
 }

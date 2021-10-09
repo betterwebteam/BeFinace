@@ -13,14 +13,17 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/mainColor.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
     <div>
-        <img id="logo" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/retina-finance2.png"
-             alt="logo">
+       <a href="home.html"> <img id="logo" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/retina-finance2.png"
+                alt="logo"> </a>
     </div>
 
     <nav role="navigation">
@@ -29,7 +32,7 @@
             <li id="home"><a href="home.html"> Home</a></li>
             <li id="about-us"><a href="html/about-us.html"> About us</a></li>
             <li id="our-service"><a href=""> Our service</a></li>
-            <li id="our-clients"><a href=""> Our clients</a></li>
+            <li id="our-clients"><a href="html/"> Our clients</a></li>
             <li id="contact"><a href=""> contact</a></li>
 
         </ul>
@@ -47,7 +50,7 @@
 
 </div>
 
-<div class="body">
+<div class="body" id="top">
     <div class="body1">
         <div class="left">
             <div class="part1">
@@ -100,25 +103,25 @@
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon1.png">
                 <p class="title-row">Fast cash loans up </br>to <span id="orange-num">$25,000</span></p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <img src="icon/navigate_next_black_24dp.svg"></button>
+                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
             <div class="box box2">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon2.png">
                 <p  class="title-row">Unemployment</br>insurance benefits</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <img src="icon/navigate_next_black_24dp.svg"></button>
+                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
             <div class="box box3">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon3.png">
                 <p  class="title-row">student</br>loan relief</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <img src="icon/navigate_next_black_24dp.svg"></button>
+                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
             <div class="box box4">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon4.png">
                 <p  class="title-row">Financial</br>institutions</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <img src="icon/navigate_next_black_24dp.svg"></button>
+                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
         </div>
     </div>
@@ -176,9 +179,9 @@
                 Lorem ipsum dolor consectetur</br> adipiscing elit elit tellus,</br> luctus nec ullamcorper mattis.
             </p>
             <div class="icons">
-                <img src="icon/facebook.png">
-                <img src="icon/twitter.png">
-                <img src="icon/linkedin.png">
+                <a href="#"> <img src="icon/facebook.svg"> </a>
+                <a href="#"> <img src="icon/twitter.svg"> </a>
+                <a href="#"> <img src="icon/linkedin.svg"> </a>
             </div>
         </div>
         <div class="box6">
@@ -189,8 +192,8 @@
                 Lorem ipsum dolor consectetur</br> adipiscing elit elit tellus,</br> luctus nec ullamcorper mattis.
             </p>
             <div class="icons">
-                <img src="icon/facebook.png">
-                <img src="icon/twitter.png">
+                <a href="#"> <img src="icon/facebook.svg"> </a>
+                <a href="#"> <img src="icon/twitter.svg"> </a>
             </div>
         </div>
         <div class="box6">
@@ -201,9 +204,9 @@
                 Lorem ipsum dolor consectetur</br> adipiscing elit elit tellus,</br> luctus nec ullamcorper mattis.
             </p>
             <div class="icons">
-                <img src="icon/facebook.png">
-                <img src="icon/twitter.png">
-                <img src="icon/linkedin.png">
+                <a href="#"> <img src="icon/facebook.svg"> </a>
+                <a href="#"> <img src="icon/twitter.svg"> </a>
+                <a href="#"> <img src="icon/linkedin.svg"> </a>
             </div>
         </div>
         <div class="box6">
@@ -214,9 +217,9 @@
                 Lorem ipsum dolor consectetur</br> adipiscing elit elit tellus,</br> luctus nec ullamcorper mattis.
             </p>
             <div class="icons">
-                <img src="icon/facebook.png">
-                <img src="icon/twitter.png">
-                <img src="icon/linkedin.png">
+                <a href="#"> <img src="icon/facebook.svg"> </a>
+                <a href="#"> <img src="icon/twitter.svg"> </a>
+                <a href="#"> <img src="icon/linkedin.svg"> </a>
             </div>
         </div>
     </div>
@@ -256,7 +259,9 @@
             © 2021 BeFinance 2 - Betheme. All Rights Reserved. <a href="#">Muffin group</a>
         </p>
         <div class="footerIcon">
-            <img src="icon/expand_less_black_24dp.svg">
+            <a href="#top">
+                <img src="icon/expand_less_black_24dp.svg">
+            </a>
         </div>
     </div>
 </div>

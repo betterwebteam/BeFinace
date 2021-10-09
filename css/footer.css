@@ -10,13 +10,12 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 .footerBody{
-    padding: 5rem 10% 2rem 10%;
+    padding: 5rem 10% 5rem 10%;
     background-color: #f4f4f4;
 }
 .footerRight{
     display: flex;
 }
-
 .footerRight-img{
     margin-right: 10%;
 }
@@ -24,13 +23,13 @@ body {
     width: 120%;
 }
 .footerRight p{
-    font-size: 1.3rem;
     font-weight: bold;
-    color: dimgray;
-    transform: translateY(-15px);
+    color: dimgray
 }
 .footerLeft{
     text-align: right;
+    line-height: 60px;
+    transform: translateY(-30px);
 }
 .footerLeft p:first-child {
     font-weight: bold;
@@ -39,7 +38,7 @@ body {
     color:#2f679b;
     font-size: 2rem;
     font-weight: bolder;
-   text-align: right;
+    text-align: right;
 }
 .foot2{
     display: flex;
@@ -48,7 +47,7 @@ body {
 }
 .foot2 p{
     width: 80%;
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
     font-weight: bold;
     color: dimgray;
     transform: translateY(-10px);
@@ -74,12 +73,11 @@ body {
     font-size: 1.3rem;
 }
 .endFooter a{
-    color: #14c9f4;
+    color: var(--blue);
     text-decoration: none;
 }
 .footerIcon img{
     width: 2rem;
-    cursor: pointer;
 }
 .footerIcon{
     position: absolute;

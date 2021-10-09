@@ -1,13 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Overpass', sans-serif;
 }
 #home a{
-    color :#5fb6cb;
-    border-bottom: 1px solid #5fb6cb;
+    color : var(--blue);
+    border-bottom: 1px solid var(--blue);
     padding-bottom: 5px;
 }
 .body{
     margin: 0 4%;
+}
+button:hover {
+    filter: brightness(80%);
+    transition: 0.2s;
 }
 .body1{
     display: grid;
@@ -50,7 +57,7 @@ body {
     padding:.5rem .7rem 1rem 1rem;
     outline: none;
     color: white;
-    background: #14c9f4;
+    background: var(--blue);
     cursor: pointer;
 }
 #button2{
@@ -133,21 +140,29 @@ body {
 }
 .row button{
     box-sizing: border-box;
-    width: 18rem;
+    width: 12rem;
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    border: 3px solid darkgrey;
+    border: 3px solid #E2E2E2;
+    padding-top: 1rem;
     padding-bottom: 1.2rem;
     outline: none;
     color: black;
     background: white;
     cursor: pointer;
     font-family: 'Overpass', sans-serif;
+    transition: 0.5s;
 }
-.row button img{
-    width: 15%;
-    transform: translateY(15px);
+.row button:hover{
+    background-color: var(--blue);
+    color: white;
+    filter: brightness(100%);
+    border: var(--blue);
+}
+.row button ion-icon{
+    font-size: 1.5rem;
+    transform: translateY(8px);
 }
 .body3{
     margin: 80px 5%;
@@ -226,7 +241,7 @@ body {
     padding: 15px 0;
     outline: none;
     color: white;
-    background:#14c9f4;
+    background:var(--blue);
     cursor: pointer;
 }
 .button4 img,.button5 img{
@@ -302,7 +317,7 @@ body {
     }
     .row{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns:  1fr;
     }
     .box{
        text-align: center;

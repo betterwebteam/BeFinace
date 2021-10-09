@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .header{
     font-family: 'Overpass', sans-serif;
     position: -webkit-sticky;
@@ -5,8 +8,8 @@
     top: 0;
     background:rgba(255,255,255,.8) ;
     display: flex;
-    font-size:1.5rem;
-    font-weight: bold;
+    font-size:1.1rem;
+    font-weight: 550;
     margin: 2rem 2rem;
 }
 #logo{
@@ -18,7 +21,7 @@
 nav{
     flex:1;
     text-align: right;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
@@ -46,8 +49,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color :#5fb6cb;
-    border-bottom: 1px solid #5fb6cb;
+    color :var(--blue);
+    border-bottom: 1px solid var(--blue);
     padding-bottom: 5px;
 }
 .blue-box button{
@@ -70,7 +73,7 @@ nav ul li a:hover{
 .burger div{
     width:25px ;
     height:3px;
-    background-color: #14c9f4;
+    background-color: var(--blue);
     margin: 5px;
     transition: all 0.3s ease;
 }
