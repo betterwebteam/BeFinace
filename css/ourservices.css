@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #top {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
@@ -43,6 +44,22 @@ button:hover{
 #all{
     margin:20px 5% 0 5%;
 }
+=======
+body {
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    margin:0 6%;
+}
+@media screen and (max-width: 700px) {
+
+}
+#all{
+    margin:20px 5% 0 5%;
+}
+@media screen and (max-width: 700px) {
+
+}
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
 
 .body1{
     display: grid;
@@ -63,14 +80,21 @@ button:hover{
 }
 
 #text-p1 h1{
+<<<<<<< HEAD
     width: 80%;
+=======
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
     font-size: 50px;
     font-weight: bolder;
     line-height: 60px;
 }
+<<<<<<< HEAD
 #text-p1 hr{
     margin-right: 2%;
 }
+=======
+
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
 #text-p2{
     margin-left: 60px;
 }
@@ -103,7 +127,11 @@ button:hover{
 }
 
 .text-main{
+<<<<<<< HEAD
     width: 80%;
+=======
+
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
     font-size: 30px;
     font-weight: bolder;
     line-height: 60px;
@@ -259,14 +287,49 @@ button:hover{
 #check-box3{
     margin-top: 5px;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 700px) {
+=======
+.read{
+    box-sizing: border-box;
+    width: 18rem;
+    text-align: center;
+    font-size: 1.50rem;
+    font-weight: bold;
+    border: 3px solid darkgrey;
+    padding-bottom: 1.2rem;
+    margin-top: 1rem;
+    outline: none;
+    color: black;
+    background: white;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+}
+.read img{
+    width: 15%;
+    transform: translateY(15px);
+}
+@media screen and (max-width: 700px) {
+    body {
+        box-sizing: border-box;
+        font-family: 'Overpass', sans-serif;
+    }
+    #all{
+        margin:20px 5% 0 5%;
+        font-family: 'Overpass', sans-serif;
+    }
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
     .body1{
         display: grid;
         grid-template-columns:1fr;
     }
     .body1 .right img{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 60%;
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
         margin-top: 10px;
         margin-left: 0;
     }
@@ -313,7 +376,11 @@ button:hover{
         grid-template-columns: 1fr;
     }
     .body2 .left img{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 60%;
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
         margin: 20px 0 0 0px;
     }
     .body3{
@@ -322,7 +389,11 @@ button:hover{
         margin-top: 50px;
     }
     .body3 .right img{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 60%;
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
         margin: 30px 0 0 0;
     }
     .body3 .left{
@@ -334,7 +405,11 @@ button:hover{
         margin-top: 50px;
     }
     .body4 .left img{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 60%;
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
         margin: 30px 0 0 0;
     }
     .body5{
@@ -343,16 +418,31 @@ button:hover{
         margin-top: 50px;
     }
     .body5 .right img{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 60%;
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
         margin: 30px 0 0 0;
     }
     .body5 .left{
         margin-left: 0;
     }
 
+<<<<<<< HEAD
 }
 @media screen and (max-width: 600px) {
     image{
         width: 100%;
     }
 }
+=======
+
+
+
+
+
+}
+
+
+>>>>>>> 71affc45b5cd98700d4f445da7bead936c21b668
