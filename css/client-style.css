@@ -2,8 +2,8 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 #our-clients a{
-    color : var(--blue);
-    border-bottom: 1px solid var(--blue);
+    color : rgb(20, 202, 244) ;
+    border-bottom: 1px solid rgb(20, 202, 244);
     padding-bottom: 5px;
 }
 button:hover {
@@ -121,7 +121,7 @@ h4{
     width:100%;
     height: auto;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     body{
         margin-top: 10%;
     }
