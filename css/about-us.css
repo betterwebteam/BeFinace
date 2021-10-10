@@ -1,6 +1,9 @@
 body {
     font-family: 'Overpass', sans-serif;
 }
+.animate__fadeIn{
+    animation-duration: 1.5s;
+}
 #about-us a{
     color :var(--blue);
     border-bottom: 1px solid var(--blue);
@@ -9,6 +12,11 @@ body {
 button:hover {
     filter: brightness(80%);
     transition: 0.2s;
+}
+button a{
+    text-decoration: none;
+    transition: 1s;
+    color:inherit;
 }
 .body{
     margin: 0 6%;
@@ -98,14 +106,12 @@ button:hover {
 }
 .tik span{
     font-size: 1.2rem;
-=======
     font-size: 1.5rem;
     font-weight: bolder;
     margin: 2rem 0;
 }
 .tik span{
     font-size: 2rem;
->>>>>>> 80f3d6bdec11080beddcd7eaf6fbb79ef50a1ffa
     font-weight:bolder ;
     color: grey;
 }

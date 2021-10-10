@@ -11,8 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ca9c175adf.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
-<body>
+<body id="top">
 <!-- header -->
 <div class="header">
     <div>
@@ -22,12 +26,12 @@
 
     <nav role="navigation">
         <ul id="menu">
-            <li id="blue-box"><a class="box-burger" href=""> Buy now</a></li>
-            <li id="home"><a href=""> Home</a></li>
-            <li id="about-us"><a href=""> About us</a></li>
-            <li id="our-service"><a href=""> Our service</a></li>
-            <li id="our-clients"><a href=""> Our clients</a></li>
-            <li id="contact"><a href=""> contact</a></li>
+            <li id="blue-box"><a class="box-burger" href="contact-us.html"> Buy now</a></li>
+            <li id="home"><a href="../home.html"> Home</a></li>
+            <li id="about-us"><a href="about-us.html"> About us</a></li>
+            <li id="our-service"><a href="ourservices.html"> Our service</a></li>
+            <li id="our-clients"><a href="ourclient.html"> Our clients</a></li>
+            <li id="contact"><a href="contact-us.html"> contact</a></li>
 
         </ul>
         <div class="burger">
@@ -45,7 +49,7 @@
 </div>
 <!-- /header -->
 <!-- Content -->
-<div class="main-div">
+<div class="main-div , animate__fadeIn">
     <div class="contact-head">
         <div class="contact-head-text">
             <div>
@@ -155,7 +159,7 @@
                                       placeholder="Describe your problem"></textarea>
                         </div>
                         <div>
-                            <button>Send Message</button>
+                            <button style="cursor: pointer">Send Message</button>
                         </div>
                     </div>
                 </div>
@@ -183,12 +187,14 @@
                     <p>Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae,
                         dapibus risus ante sodales lectus blandit.</p>
                     <button>
+                        <a href="ourservices.html">
                         <span>
                             Our Services
                         </span>
                         <span>
                             <i class="fas fa-chevron-right"></i>
                         </span>
+                        </a>
                     </button>
                 </div>
             </div>
@@ -234,7 +240,9 @@
             © 2021 BeFinance 2 - Betheme. All Rights Reserved. <a href="#">Muffin group</a>
         </p>
         <div class="footerIcon">
-            <img src="../icon/expand_less_black_24dp.svg">
+            <a href="#top">
+                <img src="../icon/expand_less_black_24dp.svg">
+            </a>
         </div>
     </div>
 </div>

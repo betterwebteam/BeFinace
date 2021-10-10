@@ -1,3 +1,6 @@
+:root{
+    --blue: rgb(20, 202, 244);
+}
 body {
     font-family: 'Overpass', sans-serif;
     height: 100vh;
@@ -5,6 +8,19 @@ body {
 .main-div {
     padding-right: 10%;
     padding-left: 10%;
+}
+button a{
+    text-decoration: none;
+    transition: 1s;
+    color:inherit;
+}
+.animate__fadeIn{
+    animation-duration: 1.5s;
+}
+#contact a{
+    color :var(--blue);
+    border-bottom: 1px solid var(--blue);
+    padding-bottom: 5px;
 }
 
 .contact-head {

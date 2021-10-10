@@ -16,6 +16,11 @@ button:hover {
     filter: brightness(80%);
     transition: 0.2s;
 }
+button a{
+    text-decoration: none;
+    transition: 1s;
+    color:inherit;
+}
 .body1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -95,6 +100,9 @@ button:hover {
 }
 .animate__pulse{
     animation: infinite;
+    animation-duration: 1s;
+}
+.animate__zoomIn ,.animate__flipInY{
     animation-duration: 1s;
 }
 #avatar{

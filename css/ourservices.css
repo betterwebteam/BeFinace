@@ -1,6 +1,17 @@
+:root{
+    --blue: rgb(20, 202, 244);
+}
 #top {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
+}
+.animate__fadeIn{
+    animation-duration: 1.5s;
+}
+button a{
+    text-decoration: none;
+    transition: 1s;
+    color:inherit;
 }
 #our-service a{
     color : var(--blue);

@@ -18,8 +18,11 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/mainColor.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 </head>
 <body>
+<div class="se-pre-con"></div>
 <div class="header">
     <div>
        <a href="home.html"> <img id="logo" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/retina-finance2.png"
@@ -28,12 +31,12 @@
 
     <nav role="navigation">
         <ul id="menu">
-            <li id="blue-box" ><a class="box-burger" href=""> Buy now</a></li>
+            <li id="blue-box" ><a class="box-burger" href="https://1.envato.market/c/1289117/275988/4415?u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fbetheme-responsive-multipurpose-wordpress-theme%2F7758048%3Fref%3Dmuffingroup"> Buy now</a></li>
             <li id="home"><a href="home.html"> Home</a></li>
             <li id="about-us"><a href="html/about-us.html"> About us</a></li>
-            <li id="our-service"><a href=""> Our service</a></li>
-            <li id="our-clients"><a href="html/"> Our clients</a></li>
-            <li id="contact"><a href=""> contact</a></li>
+            <li id="our-service"><a href="html/ourservices.html"> Our service</a></li>
+            <li id="our-clients"><a href="html/ourclient.html"> Our clients</a></li>
+            <li id="contact"><a href="html/contact-us.html"> contact</a></li>
 
         </ul>
         <div class="burger">
@@ -51,13 +54,13 @@
 </div>
 
 <div class="body" id="top">
-    <div class="body1">
+    <div class="body1 " >
         <div class="left">
             <div class="part1">
-                <div>
+                <div class="animate__flipInY">
                     <img id="img-p1" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-slider-pic2.png">
                 </div>
-                <div id="text-p1">
+                <div id="text-p1" class="animate__zoomIn">
                     <h1>
                         Financial support</br>during the COVID-19</br>pandemic
                     </h1>
@@ -66,13 +69,13 @@
                         Maecenas malesuada.
                     </p>
                     <div class="buttons">
-                        <button id="button1">send a request<img src="icon/chevron_right_white_24dp.svg"></button>
-                        <button id="button2">About us</button>
+                        <button id="button1"><a href="html/contact-us.html">send a request<img src="icon/chevron_right_white_24dp.svg"></a></button>
+                        <button id="button2"><a href="html/about-us.html">About us </a></button>
                     </div>
                     <hr>
                 </div>
             </div>
-            <div class="part2">
+            <div class="part2 , animate__zoomIn">
                 <div>
                     <a href="#title-b2">
                         <img id="img-p2" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-slider-pic3.png">
@@ -83,7 +86,7 @@
                     <div class="number">
                         <p> +61 (0) 383 766 284</p>
                         <div class="img">
-                            <img id="call-icon" class="animate__pulse" src="img/call-icon-png-11.jpg">
+                            <img id="call-icon" class="animate__pulse ,animate__flipInY" src="img/call-icon-png-11.jpg">
                             <img id="avatar" src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-slider-pic4.png">
 
                         </div>
@@ -91,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class="right">
+        <div class="right , animate__zoomIn">
             <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-slider-pic1.png">
         </div>
     </div>
@@ -103,25 +106,25 @@
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon1.png">
                 <p class="title-row">Fast cash loans up </br>to <span id="orange-num">$25,000</span></p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
+                <button><a href="html/ourservices.html"> Read more <ion-icon name="chevron-forward-outline"></ion-icon></a></button>
             </div>
             <div class="box box2">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon2.png">
                 <p  class="title-row">Unemployment</br>insurance benefits</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
+                <button><a href="html/ourservices.html"> Read more <ion-icon name="chevron-forward-outline"></ion-icon></a></button>
             </div>
             <div class="box box3">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon3.png">
                 <p  class="title-row">student</br>loan relief</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
+                <button><a href="html/ourservices.html"> Read more <ion-icon name="chevron-forward-outline"></ion-icon></a></button>
             </div>
             <div class="box box4">
                 <img src="https://themes.muffingroup.com/be/finance2/wp-content/uploads/2020/05/finance2-services-icon4.png">
                 <p  class="title-row">Financial</br>institutions</p>
                 <p class="text-row">Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit. Ut</br> elit tellus, luctus nec leo.</p>
-                <button>Read more <ion-icon name="chevron-forward-outline"></ion-icon></button>
+                <button><a href="html/ourservices.html"> Read more <ion-icon name="chevron-forward-outline"></ion-icon></a></button>
             </div>
         </div>
     </div>
@@ -148,7 +151,7 @@
         <p id="text4">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non</br> felis. Maecenas malesuada elit lectus felis.</p>
     </div>
     <div class="button4">
-        <button>Read more <img src="icon/chevron_right_white_24dp.svg"> </button>
+        <button><a href="html/ourservices.html"> Read more <img src="icon/chevron_right_white_24dp.svg"></a> </button>
     </div>
 </div>
 <div class="body5">
@@ -164,7 +167,7 @@
         <p class="text5-3">Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a,</br> gravida vitae, dapibus risus ante sodales lectus blandit.</p>
         <div>
         <button class="button5">
-            Our servis <img src="icon/chevron_right_white_24dp.svg">
+            <a href="html/ourservices.html"> Our servis <img src="icon/chevron_right_white_24dp.svg"> </a>
         </button>
         </div>
     </div>
@@ -249,7 +252,7 @@
             </div>
             <div>
                 <button>
-                    send a request <img src="icon/chevron_right_white_24dp.svg">
+                    <a href="html/contact-us.html"> send a request <img src="icon/chevron_right_white_24dp.svg"> </a>
                 </button>
             </div>
         </div>

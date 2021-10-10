@@ -1,17 +1,25 @@
 body{
     font-family: 'Overpass', sans-serif;
 }
+.animate__fadeIn{
+    animation-duration: 1.5s;
+}
 #our-clients a{
     color : rgb(20, 202, 244) ;
     border-bottom: 1px solid rgb(20, 202, 244);
     padding-bottom: 5px;
+}
+button a{
+    text-decoration: none;
+    transition: 1s;
+    color:inherit;
 }
 button:hover {
     filter: brightness(80%);
     transition: 0.2s;
 }
 .flex-container {
-    margin:10% 10%;
+    margin:0 10%;
 }
 .part-1{
     display: grid;
