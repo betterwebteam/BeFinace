@@ -278,6 +278,10 @@ button a{
     flex-direction: column;
     margin-right: 1rem;
 }
+.contact-form-inputs{
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (max-width: 1300px) {
     .main-div{
@@ -396,5 +400,10 @@ button a{
         text-align: left;
         margin-left: 1rem;
         width:80%;
+    }
+    .contact-form-inputs{
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
     }
 }
